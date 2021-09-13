@@ -1,0 +1,62 @@
+.slider-section{
+    margin: 120px 0;
+}
+.img-bg{
+    background: #1f2125;
+    padding: 20px;
+    overflow: visible;
+    height: 450px;
+    position: relative;
+    box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.1);
+}
+.img-bg img{
+    height: 130%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.social-menu ul li{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    background: #1f2125;
+    transition: all ease-in-out .3s;
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.1);
+}
+.social-menu ul li:hover{
+    transform: translateY(-5px);
+    background: #000;
+}
+.social-menu ul li a{
+    color: #c1c1c1;
+}
+/* Service Section */
+.service-item{
+    background: #212428;
+    padding: 55px;
+    transform: translateY(10px);
+    transition: ease-in-out .4s;
+    cursor: pointer;
+    box-shadow: 0 0 15px 1px rgba(0,0,0, 0.3);
+}
+.service-item span{
+    color: #ff014f;
+    font-size: 40px;
+}
+.service-item span:last-child{
+    opacity: 0;
+    visibility: hidden;
+    transition: ease .5s;
+}
+.service-item:hover{
+    transform: translateY(0);
+}
+.service-item:hover span:last-child{
+    opacity: 1;
+    visibility: visible;
+}
+hr{
+    height: 1px;
+}
